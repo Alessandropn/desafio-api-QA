@@ -1,0 +1,38 @@
+{
+    "baseUrl": "https://serverest.dev",
+    "endpoints": {
+      "login": "/login",
+      "register": "/usuarios",
+      "find": "/usuarios/",
+      "delete": "/usuarios/",
+      "products": "/produtos",
+      "productsFind": "/produtos/",
+      "productsDelete": "/produtos/",
+      "shoppingCart": "/carrinhos"
+    },
+    "statusCode": {
+      "success": 200,
+      "created": 201,
+      "badRequest": 400,
+      "unauthorized": 401,
+      "forbidden": 403,
+      "notFound": 404,
+      "serverError": 500
+    },
+    "messages": {
+      "loginSuccess": "Login realizado com sucesso",
+      "loginFailed": "Email e/ou senha inválidos",
+      "userCreated": "Cadastro realizado com sucesso",
+      "userExists": "Este email já está sendo usado",
+      "userDeleted": "Registro excluído com sucesso",
+      "userFound": "Usuário não encontrado",
+      "productCreated": "Cadastro realizado com sucesso",
+      "productDeleted": "Registro excluído com sucesso"
+    },
+    "productData": {
+      "nome": "Produto Teste Automatizado",
+      "preco": 100,
+      "descricao": "Produto criado via automação de testes",
+      "quantidade": 5
+    }
+  }
